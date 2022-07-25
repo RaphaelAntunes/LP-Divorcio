@@ -1,0 +1,237 @@
+html {
+    color: #f2f2f2;
+    scroll-behavior: smooth;
+}
+
+. @font-face {
+    font-family: COCOGOOSE;
+    src: url(../font/Cocogoose.ttf);
+}
+
+@font-face {
+    font-family: cocogoose-light;
+    src: url(../font/Cocogoose-light.ttf);
+}
+
+*, h1, h2, h3, p {
+    outline-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    word-wrap: break-word !important;
+    flex-wrap: wrap;
+}
+
+
+.main {
+    padding: 10px;
+    padding-bottom: 270;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/banner1.svg);
+}
+
+.main h1 {
+    font-family: Cocogoose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 51px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main h2 {
+    color: white;
+    font-family: Cocogoose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.main button {
+    cursor: pointer;
+    outline-style: none;
+    color: white;
+    font-family: COCOGOOSE;
+    padding: 20 15 20 15;
+    font-size: 35;
+    max-width: 473px;
+    height: 100%;
+    background: #1A1A1A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+
+
+.divorcio h1{
+    font-family: Cocogoose;
+font-style: normal;
+font-weight: normal;
+font-size: 38px;
+line-height: 68px;
+
+color: #000000;
+}
+
+.divorcio h2{
+    font-family: Cocogoose-light;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 32px;
+    
+    color: #000000;
+    
+}
+
+.divorcio img{
+    width: 100%;
+    max-width: 704px;
+}
+
+.prova{
+    padding: 15px;
+}
+
+.prova img{
+    max-width:379px;
+    width: 100%;
+}
+
+
+
+.prova h1{
+    font-family: Cocogoose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 68px;
+    text-align: center;
+    
+    color: #000000;
+      
+}
+
+.prova button {
+    outline-style: none;
+    cursor: pointer;
+    font-family: COCOGOOSE;
+    padding: 20 15 20 15;
+    font-size: 35;
+    max-width: 473px;
+    height: 100%;
+    background: #1A1A1A;
+    color: #E1701A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+
+.icon{
+    max-width: 30px !important;
+}
+
+.duvidas h1{
+    margin-top: 100px
+}
+
+
+.duvidas h1, .duvidas h2{
+    font-family: Cocogoose;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 126%;
+
+
+color: #000000;
+}
+
+.footer{
+    color: white;
+    padding: 50px;
+    background: #1A1A1A;
+}
+
+.footer h1{
+    font-family: Cocogoose;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 37px;
+
+text-align: center;
+}
+
+.duvidas img{
+    width: 100%;
+    max-width: 300px;
+}
+
+
+
+@media (max-width: 992px){
+    .boxVideo{
+        margin-left: 50px !important;
+        min-width: 36.5em !important;
+
+    }
+}
+@media (max-width: 768px){
+    .boxVideo{
+        margin-left: 25px !important;
+        min-width: 30.5em !important;
+
+    }
+}
+@media (max-width: 568px){
+    .boxVideo{
+        margin-left: 25px !important;
+        min-width: 25.5em !important;
+
+    }
+}
+@media (max-width:461px){
+    .boxVideo{
+        margin-left: 25px !important;
+        min-width: 20.5em !important;
+
+    }
+}
+@media (max-width:376px){
+    .boxVideo{
+        margin-left: 25px !important;
+        min-width: 15.5em !important;
+
+    }
+}
+@media (max-width:300px){
+    .boxVideo{
+        margin-left: 25px !important;
+        min-width: 10.5em !important;
+
+    }
+}
+
+.boxVideo {
+    width: 100%;
+    min-width: 36.5em;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin: 0 auto;
+}
+
+.boxVideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
